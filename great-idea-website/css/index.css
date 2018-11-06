@@ -63,4 +63,138 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	font-family: 'Poor Story';
+}
+
 /* Your code starts here! */
+hr {
+	width: 85%;
+	margin: 40px auto;
+	color: black;
+}
+nav {
+	background: tomato;
+	width: 1034px;
+	height: 100px;
+	position: fixed;
+	padding-bottom: 40px;
+}
+
+nav a {
+	font-family: 'Poor Story';
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	margin: 40px 40px 0px 30px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	display: inline-block;
+	position: fixed;
+	top: 30px;
+	right: 170px;
+}
+
+header h1 {
+	font-size: 80px;
+	padding-left: 90px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: .9;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.innovation {
+	display: block;
+}
+
+.on {
+	display: block;
+}
+
+.demand {
+	display: block;
+}
+
+.header-left {
+	width: 49%;
+	display: inline-block;
+	margin-top: 250px;
+}
+
+.header-left p {
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-left: 230px;
+	margin-top: 50px;
+}
+
+.header-right {
+	width: 49%;
+	height: 430px;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.header-right img {
+	padding-left: 70px;
+}
+
+.about {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.about-left {
+	width: 49%;
+	display: inline-block;
+}
+
+.about-right {
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
+	margin: 40px auto;
+}
+
+.content {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.content div{
+	width: 33%;
+	display: inline-block;
+}
+
+.contact {
+	width: 85%;
+	padding-left: 77px
+
+}
+
+.space {
+	line-height: 2;
+}
+
+span {
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
