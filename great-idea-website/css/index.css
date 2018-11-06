@@ -75,7 +75,7 @@ hr {
 }
 nav {
 	background: tomato;
-	width: 1034px;
+	width: 85%;
 	height: 100px;
 	position: fixed;
 	padding-bottom: 40px;
@@ -93,7 +93,22 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline;
-	animation: spin 0.5s ease-in-out 1;
+	animation: wobble 0.5s linear 1;
+}
+
+@keyframes wobble {
+	25% {
+		transform: translateX(-10px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	75% {
+		transform: translateX(10px);
+	}
+	100% {
+		transform: translateY(10px);
+	}
 }
 
 @keyframes spin {
@@ -107,9 +122,9 @@ nav a:hover {
 
 nav img {
 	display: inline-block;
-	position: fixed;
+	position: absolute;
 	top: 30px;
-	right: 170px;
+	right: 100px;
 }
 
 nav img:hover {
@@ -149,6 +164,8 @@ header h1 {
 
 .header-left p {
 	border: 1px solid black;
+	background: black;
+	color: white;
 	display: inline-block;
 	padding: 10px 30px;
 	margin-left: 230px;
