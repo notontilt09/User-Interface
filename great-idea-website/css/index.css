@@ -73,8 +73,13 @@ hr {
 	margin: 40px auto;
 	color: black;
 }
+
+h2 {
+	font-size: 20px;
+}
+
 nav {
-	background: tomato;
+	background-image: url('https://thumbs.dreamstime.com/z/grey-matrix-shadow-white-background-51591355.jpg');
 	width: 85%;
 	height: 100px;
 	position: fixed;
@@ -88,7 +93,7 @@ nav a {
 	color: black;
 	margin: 40px 40px 0px 30px;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 nav a:hover {
@@ -124,7 +129,7 @@ nav img {
 	display: inline-block;
 	position: absolute;
 	top: 30px;
-	right: 100px;
+	right: 80px;
 }
 
 nav img:hover {
@@ -167,7 +172,7 @@ header h1 {
 	background: black;
 	color: white;
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 10px 40px;
 	margin-left: 230px;
 	margin-top: 50px;
 }
